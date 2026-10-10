@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="416" viewBox="0 0 680 416" role="img" aria-labelledby="clinicTitle clinicDesc" data-model="calendar-record-and-visit-timeline" data-variant="desktop" data-version="v3">
+<title id="clinicTitle">A connected clinic day: appointments, records, and visits</title>
+<desc id="clinicDesc">Product concept illustration, not an application screenshot. An appointment calendar connects to a patient-record folder and a visit timeline. Staff and clinic setup support the day. No real patient information is shown.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="680" height="416" rx="18" fill="#171f26" stroke="none" stroke-width="1.5"/>
+<text x="24" y="29" font-size="14" font-weight="600" fill="#98bdff" text-anchor="start">CLINIC WORKFLOW CONCEPT</text>
+<text x="24" y="64" font-size="27" font-weight="600" fill="#f1ece2" text-anchor="start">The clinic day stays connected.</text>
+<rect x="28" y="104" width="230" height="247" rx="10" fill="#202c34" stroke="#3c4b54" stroke-width="1.5"/>
+<rect x="28" y="104" width="230" height="44" rx="10" fill="#27384e" stroke="none" stroke-width="1.5"/>
+<path d="M47 99V113 M239 99V113" fill="none" stroke="#98bdff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="133" font-size="20" font-weight="600" fill="#f1ece2" text-anchor="start">Appointments</text>
+<circle cx="50" cy="175" r="5" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="66" y="182" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="start">Consultation</text>
+<path d="M65 194H241" fill="none" stroke="#3c4b54" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="50" cy="227" r="5" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="66" y="234" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="start">Follow-up</text>
+<path d="M65 246H241" fill="none" stroke="#3c4b54" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="50" cy="279" r="5" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="66" y="286" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="start">Consultation</text>
+<path d="M65 298H241" fill="none" stroke="#3c4b54" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="365" font-size="17" font-weight="400" fill="#c0cbd0" text-anchor="start">Reception plans the day</text>
+<path d="M265 204H294" fill="none" stroke="#98bdff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M288 199L294 204L288 209" fill="none" stroke="#98bdff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M299 161H365L382 181H526V330H299Z" fill="#202c34" stroke="#3c4b54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="315" y="199" width="195" height="111" rx="6" fill="#27384e" stroke="none" stroke-width="1.5"/>
+<text x="331" y="230" font-size="21" font-weight="600" fill="#f1ece2" text-anchor="start">Patient record</text>
+<text x="331" y="260" font-size="19" font-weight="400" fill="#f1ece2" text-anchor="start">Visit context</text>
+<path d="M331 280H491 M331 295H457" fill="none" stroke="#3c4b54" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="299" y="138" font-size="18" font-weight="400" fill="#c0cbd0" text-anchor="start">Doctor&#x27;s workspace</text>
+<path d="M548 131V306" fill="none" stroke="#3c4b54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="548" cy="138" r="6" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="565" y="144" font-size="16" font-weight="400" fill="#f1ece2" text-anchor="start">Visit</text>
+<circle cx="548" cy="211" r="6" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="565" y="217" font-size="16" font-weight="400" fill="#f1ece2" text-anchor="start">Notes</text>
+<circle cx="548" cy="286" r="6" fill="#98bdff" stroke="none" stroke-width="1.5"/>
+<text x="565" y="292" font-size="16" font-weight="400" fill="#f1ece2" text-anchor="start">Follow-up</text>
+<rect x="303" y="338" width="224" height="30" rx="15" fill="#29363e" stroke="none" stroke-width="1.5"/>
+<text x="415" y="358" font-size="17" font-weight="400" fill="#f1ece2" text-anchor="middle">Staff + clinic setup</text>
+<path d="M24 374H656" fill="none" stroke="#3c4b54" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="396" font-size="16" font-weight="400" fill="#c0cbd0" text-anchor="start">Clinic workflow · No patient data · Not an application screenshot</text>
+</svg>

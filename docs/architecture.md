@@ -1,34 +1,32 @@
-# Architecture and development status
+# Architecture and evidence boundaries
 
-Doctoleb is a personal project in development. This is an architectural overview, not source or deployment instructions. Describing a component does not establish that its production behavior has been verified.
+Doctoleb is my clinic-management application. This public overview documents the architecture and its design decisions. Application source stays private; the documentation provides no deployment instructions or public runtime results.
 
 ## Components
 
-| Component | Approach | Status boundary |
+| Component | Approach | Public evidence |
 | --- | --- | --- |
-| Browser application | React and TypeScript progressive web application | Under development; source is private |
-| Local persistence | IndexedDB for browser-resident data | Part of the local-first approach; no stored records included here |
-| Validation | Shared validation for application data | Engineering approach; no executed suite included here |
-| Synchronization | Node-based server coordination | Design and development direction; no completed multi-device deployment claimed |
-| Languages | English, Arabic, and French, with right-to-left Arabic layouts | Product scope; not a completeness claim for every screen |
+| Browser application | React and TypeScript progressive web application | Architecture overview; application source is private. |
+| Local persistence | IndexedDB for browser-resident data | Local-first design; no stored records are included here. |
+| Validation | Shared validation for application data | Validation boundaries are documented; executed test results are not published here. |
+| Synchronization | Node-based server coordination | Synchronization states and responsibilities are documented; no multi-device runtime results are supplied here. |
+| Languages | English, Arabic, and French, with right-to-left Arabic layouts | Multilingual interface design. |
 
 ## Local operation and synchronization
 
-Local persistence is intended to support clinic workflows when connectivity is unreliable. A locally accepted change and a server-confirmed change are different states.
-
-Implementation must address retries, duplicate submissions, concurrent edits, conflicts, device access, and data recovery. These are engineering responsibilities rather than capabilities demonstrated by this documentation.
+I designed local persistence around clinic workflows with unreliable connectivity. A locally accepted change and a server-confirmed change are different states. The synchronization design distinguishes them and accounts for retries, duplicate submissions, concurrent edits, conflicts, device access, and recovery.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/sync-states-dark.svg">
-  <img alt="A local change waits for synchronization, retries offline, and is accepted after server review or returned for conflict resolution." src="../assets/sync-states-light.svg" width="500">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/sync-states-dark.svg">
+  <img alt="A local change waits for synchronization, retries offline, and is accepted after server review or returned for conflict resolution." src="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/sync-states-light.svg" width="500">
 </picture>
 
-This illustrates proposed synchronization states, not a completed protocol or conflict-resolution implementation.
+The diagram documents synchronization states. It is an architecture illustration, not evidence of an executed protocol or conflict-resolution test.
 
 ## Visibility and verification
 
-Receptionists, doctors, and administrators have different responsibilities. Data visibility needs to reflect those responsibilities at application and server boundaries; interface controls alone do not establish authorization.
+Receptionists, doctors, and administrators have different responsibilities. I defined their visibility boundaries in the application design. Application and server authorization remain the relevant controls; interface visibility alone does not establish authorization.
 
-Unit, integration, and end-to-end checks are part of the development plan. This repository does not publish their results, a security assessment, clinical outcomes, or certification. All public descriptions avoid patient information.
+The public showcase contains no patient information, executed unit or integration test results, security assessment, clinical outcomes, or certification.
 
 [Project overview](../README.md) · [Clinic workflows](workflows.md)
