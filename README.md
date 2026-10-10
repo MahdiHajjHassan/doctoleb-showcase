@@ -1,19 +1,19 @@
 # Doctoleb
 
+> [!CAUTION]
+> **Public showcase; private application.**
+> Doctoleb’s application source is private. This showcase documents product and architecture decisions using explanatory illustrations. It includes no patient information, deployment records, clinical certification, or executed implementation checks.
+
 ## A clinic's working day, brought together.
 
 I developed a clinic-management application that brings **appointments, patient records, and visit administration** into one place. Its design connects the work of receptionists, doctors, and clinic administrators.
 
-*Personal project · Application source private · Public architecture showcase*
-
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v3-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-v3-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v3-dark.svg">
-  <img src="assets/clinic-story-v3-light.svg" alt="Doctoleb concept illustration: an appointment calendar connects to a patient-record folder and visit timeline; not an application screenshot." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v4-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v4-dark.svg">
+  <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
 </picture>
-
-*Concept illustration of the clinic workflow, not an application screenshot.*
 
 ### The product decisions
 
@@ -32,11 +32,11 @@ I translated clinic workflows into product requirements, designed multilingual i
 
 ### Application approach
 
-| Area | Architecture and evidence boundary |
+| Area | Architecture approach |
 | --- | --- |
-| Application | React and TypeScript progressive web application with private source. |
+| Application | React and TypeScript progressive web application. |
 | Local persistence | IndexedDB for browser-resident data; part of the local-first approach. |
-| Synchronization | Node-based server coordination documented in the design; no multi-device runtime results are provided by the public showcase. |
+| Synchronization | Node-based server coordination for local changes and synchronization. |
 | Language and layout | English, Arabic, and French; right-to-left Arabic layouts are part of the product scope. |
 | Staff visibility | Receptionists, doctors, and administrators have different responsibilities; application and server boundaries need to reflect them. |
 
@@ -49,15 +49,11 @@ A locally accepted change and a server-confirmed change are different states. Th
   <img src="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-light.svg" alt="Existing architecture illustration: clinic roles use local browser storage, with dashed paths showing synchronization and server coordination." width="500">
 </picture>
 
-The existing diagram illustrates the architecture direction. It does not establish verified production behavior.
-
 ### Read further
 
-- [Architecture and evidence boundaries](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/architecture.md)
+- [Application architecture](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/architecture.md)
 - [Clinic workflows](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/workflows.md)
 
 </details>
-
-This public showcase contains no patient records and does not claim a production rollout, clinical certification, or executed implementation checks.
 
 [Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)

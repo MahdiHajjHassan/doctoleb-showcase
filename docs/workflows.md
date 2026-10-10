@@ -1,5 +1,9 @@
 # Clinic workflows
 
+> [!CAUTION]
+> **Public showcase; private application.**
+> Doctoleb’s application source is private. This showcase documents product and architecture decisions using explanatory illustrations. It includes no patient information, deployment records, clinical certification, or executed implementation checks.
+
 I organized Doctoleb around one connected clinic day: appointments, patient records, and visit administration. The design assigns each activity to the staff who need it.
 
 | Role | Responsibility | Product concern |
@@ -11,9 +15,5 @@ I organized Doctoleb around one connected clinic day: appointments, patient reco
 Appointments, records, and administration belong to one clinic workflow, while staff interact with different parts of it. I connected these activities in the product design and kept responsibilities explicit.
 
 I designed the interface for English, Arabic, and French, including right-to-left Arabic layouts. Local operation and later synchronization account for connectivity interruptions.
-
-## Public showcase boundary
-
-This showcase contains no real patients, clinical examples, or appointment records. Application source is private. The public material documents product and architecture decisions; it supplies no production rollout, privacy audit, recovery test, or synchronization runtime results.
 
 [Project overview](../README.md) · [Architecture](architecture.md)
