@@ -24,4 +24,4 @@ I translate clinic workflows into product requirements, design interfaces across
 
 This showcase contains no patient records and does not claim a production rollout or clinical certification.
 
-[Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan) · [My independent AI workflow](https://github.com/MahdiHajjHassan/ai-development-workflow)
+[Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)
