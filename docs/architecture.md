@@ -18,17 +18,10 @@ Local persistence is intended to support clinic workflows when connectivity is u
 
 Implementation must address retries, duplicate submissions, concurrent edits, conflicts, device access, and data recovery. These are engineering responsibilities rather than capabilities demonstrated by this documentation.
 
-~~~mermaid
-stateDiagram-v2
-    [*] --> LocalChange
-    LocalChange --> PendingSync: queue change
-    PendingSync --> PendingSync: connection unavailable
-    PendingSync --> ServerReview: connection restored
-    ServerReview --> Synced: accepted
-    ServerReview --> NeedsResolution: conflicting change
-    NeedsResolution --> PendingSync: resolve and retry
-    Synced --> [*]
-~~~
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/sync-states-dark.svg">
+  <img alt="A local change waits for synchronization, retries offline, and is accepted after server review or returned for conflict resolution." src="../assets/sync-states-light.svg" width="500">
+</picture>
 
 This illustrates proposed synchronization states, not a completed protocol or conflict-resolution implementation.
 

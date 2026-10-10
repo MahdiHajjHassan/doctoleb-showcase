@@ -6,18 +6,10 @@ The application is a personal project in development. This repository explains i
 
 ## Clinic work with local storage
 
-~~~mermaid
-flowchart TD
-    Reception["Reception: appointments"] --> App["Clinic application"]
-    Doctor["Doctor: records and visits"] --> App
-    Admin["Administrator: clinic setup"] --> App
-    App --> Local["Local browser storage"]
-    Local --> Continue["Local work during a connection interruption"]
-    Local -.-> Sync["Planned synchronization"]
-    Sync -.-> Server["Planned server coordination"]
-    Server -.-> Sync
-    Sync -.-> Local
-~~~
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/local-first-dark.svg">
+  <img alt="Clinic roles use the application and local browser storage; dashed paths show synchronization and server coordination under development." src="assets/local-first-light.svg" width="500">
+</picture>
 
 The local-first approach puts browser storage at the center of day-to-day work. Staff have different responsibilities, and connectivity should not dictate every interaction. The dashed path represents synchronization under development, rather than a completed multi-device rollout.
 
