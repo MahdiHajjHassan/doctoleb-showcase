@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="548" viewBox="0 0 360 548" role="img" aria-labelledby="clinicTitle clinicDesc" data-model="calendar-record-and-visit-timeline" data-variant="mobile" data-version="v2">
+<title id="clinicTitle">A connected clinic day: appointments, records, and visits</title>
+<desc id="clinicDesc">Product concept in development, not an application screenshot. An appointment calendar connects to a patient-record folder and a visit timeline. Staff and clinic setup support the day. No real patient information is shown.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="360" height="548" rx="18" fill="#faf8f3" stroke="none" stroke-width="1.5"/>
+<text x="24" y="29" font-size="16" font-weight="600" fill="#2859a0" text-anchor="start">PRODUCT CONCEPT · IN DEVELOPMENT</text>
+<text x="24" y="66" font-size="27" font-weight="600" fill="#24313b" text-anchor="start">The clinic day</text>
+<text x="24" y="102" font-size="27" font-weight="600" fill="#24313b" text-anchor="start">stays connected.</text>
+<rect x="22" y="128" width="242" height="186" rx="10" fill="#ffffff" stroke="#d9dedb" stroke-width="1.5"/>
+<rect x="22" y="128" width="242" height="44" rx="10" fill="#e9effa" stroke="none" stroke-width="1.5"/>
+<path d="M41 123V137 M245 123V137" fill="none" stroke="#2859a0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="157" font-size="21" font-weight="600" fill="#24313b" text-anchor="start">Appointments</text>
+<circle cx="44" cy="199" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<text x="60" y="206" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">Consultation</text>
+<path d="M59 218H247" fill="none" stroke="#d9dedb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="44" cy="237" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<text x="60" y="244" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">Follow-up</text>
+<path d="M59 256H247" fill="none" stroke="#d9dedb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="44" cy="275" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<text x="60" y="282" font-size="18" font-weight="400" fill="#24313b" text-anchor="start">Consultation</text>
+<path d="M59 294H247" fill="none" stroke="#d9dedb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M280 216H322V330" fill="none" stroke="#2859a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M317 324L322 330L327 324" fill="none" stroke="#2859a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M117 293H169L181 310H336V431H117Z" fill="#ffffff" stroke="#d9dedb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="136" y="327" width="181" height="82" rx="6" fill="#e9effa" stroke="none" stroke-width="1.5"/>
+<text x="152" y="352" font-size="21" font-weight="600" fill="#24313b" text-anchor="start">Patient record</text>
+<text x="152" y="382" font-size="20" font-weight="400" fill="#24313b" text-anchor="start">Visit context</text>
+<circle cx="46" cy="393" r="18" fill="#ffffff" stroke="#2859a0" stroke-width="1.5"/>
+<path d="M46 388V399 M40 393H52" fill="none" stroke="#2859a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 414V452H303" fill="none" stroke="#d9dedb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<circle cx="126" cy="452" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<circle cx="215" cy="452" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<circle cx="303" cy="452" r="5" fill="#2859a0" stroke="none" stroke-width="1.5"/>
+<text x="126" y="476" font-size="18" font-weight="400" fill="#24313b" text-anchor="middle">Visit</text>
+<text x="215" y="476" font-size="18" font-weight="400" fill="#24313b" text-anchor="middle">Notes</text>
+<text x="303" y="476" font-size="18" font-weight="400" fill="#24313b" text-anchor="middle">Follow-up</text>
+<path d="M24 482H336" fill="none" stroke="#d9dedb" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="504" font-size="18" font-weight="400" fill="#53646d" text-anchor="start">Staff + clinic setup support the day.</text>
+<text x="24" y="528" font-size="18" font-weight="400" fill="#53646d" text-anchor="start">Illustration, not a product screenshot.</text>
+</svg>

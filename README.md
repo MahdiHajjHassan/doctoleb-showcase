@@ -7,10 +7,10 @@ I'm building a clinic-management application that brings **appointments, patient
 *Personal project · In development · Application source private*
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-dark.svg">
-  <img src="assets/clinic-story-light.svg" alt="Concept illustration of the intended clinic workflow: reception plans appointments, doctors follow visits, and administrators manage clinic setup." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v2-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v2-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v2-dark.svg">
+  <img src="assets/clinic-story-v2-light.svg" alt="Doctoleb product concept in development: an appointment calendar connects to a patient-record folder and visit timeline; not an application screenshot." width="680">
 </picture>
 
 *Concept illustration of intended scope, not an application screenshot.*
