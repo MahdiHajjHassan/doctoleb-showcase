@@ -1,27 +1,63 @@
 # Doctoleb
 
-I'm developing a clinic-management application that brings appointments, patient records, and visit administration into one place. It is designed for doctors, receptionists, and administrators, with English, Arabic, and French interfaces.
+## A clinic's working day, brought together.
 
-The application is a personal project in development. This repository explains its product direction and architecture; the application source is private.
+I'm building a clinic-management application that brings **appointments, patient records, and visit administration** into one place. It is designed around the connected work of receptionists, doctors, and clinic administrators.
 
-## Clinic work with local storage
+*Personal project · In development · Application source private*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/local-first-dark.svg">
-  <img alt="Clinic roles use the application and local browser storage; dashed paths show synchronization and server coordination under development." src="assets/local-first-light.svg" width="500">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-dark.svg">
+  <img src="assets/clinic-story-light.svg" alt="Concept illustration of the intended clinic workflow: reception plans appointments, doctors follow visits, and administrators manage clinic setup." width="680">
 </picture>
 
-The local-first approach puts browser storage at the center of day-to-day work. Staff have different responsibilities, and connectivity should not dictate every interaction. The dashed path represents synchronization under development, rather than a completed multi-device rollout.
+*Concept illustration of intended scope, not an application screenshot.*
 
-## My focus
+### What I'm designing around
+
+- **One connected working day.** Reception handles appointments and daily administration; doctors need relevant records and visit context; administrators configure the clinic and staff responsibilities.
+- **The languages a clinic uses.** English, Arabic, and French interfaces, with Arabic layouts designed for right-to-left reading.
+- **Connectivity that varies.** Local browser storage sits at the center of the product direction, with synchronization and server coordination under development.
+
+### My contribution
 
 I translate clinic workflows into product requirements, design interfaces across languages, and work on local operation and synchronization boundaries. Role-specific data visibility is part of the product direction.
 
-## Technical detail
+---
 
-- [Architecture and development status](docs/architecture.md): the React and TypeScript application, local persistence, and synchronization design.
-- [Clinic workflows](docs/workflows.md): reception, doctor, and administrator responsibilities.
+<details>
+<summary><strong>Engineering details: architecture, local storage, and synchronization</strong></summary>
 
-This showcase contains no patient records and does not claim a production rollout or clinical certification.
+### Application approach
+
+| Area | Approach and current boundary |
+| --- | --- |
+| Application | React and TypeScript progressive web application; under development, with private source. |
+| Local persistence | IndexedDB for browser-resident data; part of the local-first approach. |
+| Synchronization | Node-based server coordination; design and development work, with no completed multi-device rollout claimed here. |
+| Language and layout | English, Arabic, and French; right-to-left Arabic layouts are part of the product scope. |
+| Staff visibility | Receptionists, doctors, and administrators have different responsibilities; application and server boundaries need to reflect them. |
+
+### The engineering questions
+
+A locally accepted change and a server-confirmed change are different states. The design needs to make those states understandable while addressing retries, duplicate submissions, concurrent edits, conflicts, device access, and recovery.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-dark.svg">
+  <img src="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-light.svg" alt="Existing architecture illustration: clinic roles use local browser storage, with dashed paths showing synchronization and server coordination under development." width="500">
+</picture>
+
+The existing diagram illustrates the architecture direction. It does not establish verified production behavior.
+
+### Read further
+
+- [Architecture and development status](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/architecture.md)
+- [Clinic workflows](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/workflows.md)
+
+</details>
+
+This public showcase contains no patient records and does not claim a production rollout, clinical certification, or executed implementation checks.
 
 [Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)

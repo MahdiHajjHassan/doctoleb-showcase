@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="290" viewBox="0 0 320 290" role="img" aria-labelledby="clinic-title clinic-description">
+  <title id="clinic-title">Doctoleb: a clinic's working day</title>
+  <desc id="clinic-description">Concept illustration of intended product scope, not an application screenshot. Reception plans the day, doctors follow visits, and administrators manage clinic setup.</desc>
+  <style>text{font-family:Segoe UI,Arial,sans-serif;font-size:26px;font-weight:500;fill:#24313b}.small{font-size:22px;font-weight:400}</style>
+  <rect width="320" height="290" rx="14" fill="#faf8f3"/>
+
+  <g fill="#ffffff" stroke="#d9dedb" stroke-width="1.5">
+    <rect x="16" y="15" width="288" height="76" rx="10"/>
+    <rect x="16" y="107" width="288" height="76" rx="10"/>
+    <rect x="16" y="199" width="288" height="76" rx="10"/>
+  </g>
+  <g fill="#bb642e">
+    <rect x="16" y="15" width="6" height="76" rx="3"/>
+    <rect x="16" y="107" width="6" height="76" rx="3"/>
+    <rect x="16" y="199" width="6" height="76" rx="3"/>
+  </g>
+  <text class="small" x="34" y="44">Reception</text>
+  <text x="34" y="75">Plan the day.</text>
+  <text class="small" x="34" y="136">Doctors</text>
+  <text x="34" y="167">Follow the visit.</text>
+  <text class="small" x="34" y="228">Administration</text>
+  <text x="34" y="259">Manage the clinic.</text>
+</svg>
