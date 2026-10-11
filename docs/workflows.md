@@ -1,19 +1,22 @@
-# Clinic workflows
+# Doctoleb | Reception, Doctors, and Administration
 
 > [!CAUTION]
-> **Public showcase; private application.**
-> Doctoleb’s application source is private. This showcase documents product and architecture decisions using explanatory illustrations. It includes no patient information, deployment records, clinical certification, or executed implementation checks.
+> **Private clinic application.** Doctoleb is in development and its application source is private. This page explains the product and architecture through diagrams; it contains no patient records or deployment, clinical certification, or application test results.
 
-I organized Doctoleb around one connected clinic day: appointments, patient records, and visit administration. The design assigns each activity to the staff who need it.
+I organized Doctoleb around a connected clinic day. Appointments, patient records, and visit administration share a workflow while each staff role has a distinct job.
 
-| Role | Responsibility | Product concern |
+| Role | Main task | Product need |
 | --- | --- | --- |
-| Receptionist | Appointments and daily visit administration | A clear schedule and appropriate administrative visibility. |
-| Doctor | Patient records and visits | Relevant clinical context and continuity. |
-| Administrator | Clinic setup and staff responsibilities | Configuration and appropriate access boundaries. |
+| Receptionist | Manage appointments and visit administration. | A clear schedule and the relevant administrative information. |
+| Doctor | Work with patient records and visits. | Patient context and continuity between visits. |
+| Administrator | Configure the clinic and staff responsibilities. | Clinic settings and staff access management. |
 
-Appointments, records, and administration belong to one clinic workflow, while staff interact with different parts of it. I connected these activities in the product design and kept responsibilities explicit.
+## Language and connectivity
 
-I designed the interface for English, Arabic, and French, including right-to-left Arabic layouts. Local operation and later synchronization account for connectivity interruptions.
+I designed English, Arabic, and French interfaces, including right-to-left Arabic layouts. Local browser operation and synchronization account for connectivity interruptions during the working day.
 
-[Project overview](../README.md) · [Architecture](architecture.md)
+## Contribution
+
+I translated these roles into requirements, connected the appointment and record workflows, designed the multilingual interfaces, and defined staff visibility and synchronization responsibilities.
+
+[Project overview](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/README.md) · [Architecture](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/architecture.md)

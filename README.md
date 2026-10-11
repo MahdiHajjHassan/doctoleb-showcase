@@ -1,12 +1,15 @@
-# Doctoleb
+# Doctoleb | Clinic Management
 
 > [!CAUTION]
-> **Public showcase; private application.**
-> Doctoleb’s application source is private. This showcase documents product and architecture decisions using explanatory illustrations. It includes no patient information, deployment records, clinical certification, or executed implementation checks.
+> **Private clinic application.** Doctoleb is in development and its application source is private. This page explains the product and architecture through diagrams; it contains no patient records or deployment, clinical certification, or application test results.
 
-## A clinic's working day, brought together.
+## Appointments, patient records, and administration in one clinic workflow
 
-I developed a clinic-management application that brings **appointments, patient records, and visit administration** into one place. Its design connects the work of receptionists, doctors, and clinic administrators.
+Receptionists manage the schedule, doctors need patient and visit context, and administrators manage the clinic and staff. I developed Doctoleb to connect those activities in one application.
+
+**My contribution:** clinic workflow requirements, multilingual interfaces, staff access rules, and the design of local browser operation and synchronization.
+
+**Tools:** React · TypeScript · IndexedDB · Node.js
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
@@ -15,45 +18,38 @@ I developed a clinic-management application that brings **appointments, patient 
   <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
 </picture>
 
-### The product decisions
+### Built around a clinic's working day
 
-- **One connected working day.** Reception handles appointments and daily administration; doctors need relevant records and visit context; administrators configure the clinic and staff responsibilities.
-- **The languages a clinic uses.** English, Arabic, and French interfaces, with Arabic layouts designed for right-to-left reading.
-- **Connectivity that varies.** The application design centers on local browser storage, synchronization, and server coordination.
-
-### My contribution
-
-I translated clinic workflows into product requirements, designed multilingual interfaces, and defined local operation and synchronization boundaries. The design assigns data visibility to each staff role according to its responsibilities.
-
----
+- **A connected schedule and record:** appointments, patient information, and visit administration belong to the same workflow.
+- **Languages used by the staff:** English, Arabic, and French, with right-to-left Arabic layouts.
+- **Interrupted connectivity:** local browser storage and synchronization distinguish a saved local change from one accepted by the server.
+- **Staff responsibilities:** receptionists, doctors, and administrators interact with the parts of the application their work requires.
 
 <details>
-<summary><strong>Engineering details: architecture, local storage, and synchronization</strong></summary>
+<summary><strong>Engineering details: application structure, local storage, and synchronization</strong></summary>
 
-### Application approach
-
-| Area | Architecture approach |
+| Component | Purpose |
 | --- | --- |
-| Application | React and TypeScript progressive web application. |
-| Local persistence | IndexedDB for browser-resident data; part of the local-first approach. |
-| Synchronization | Node-based server coordination for local changes and synchronization. |
-| Language and layout | English, Arabic, and French; right-to-left Arabic layouts are part of the product scope. |
-| Staff visibility | Receptionists, doctors, and administrators have different responsibilities; application and server boundaries need to reflect them. |
-
-### The engineering questions
-
-A locally accepted change and a server-confirmed change are different states. The synchronization design distinguishes those states and addresses retries, duplicate submissions, concurrent edits, conflicts, device access, and recovery.
+| React and TypeScript PWA | Appointments, records, and visit administration in the browser. |
+| IndexedDB | Store application data locally. |
+| Node-based server coordination | Synchronize changes and report their acceptance or conflicts. |
+| Multilingual UI | English, Arabic, and French presentation, including right-to-left layouts. |
+| Staff access rules | Separate administrative and clinical responsibilities. |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-dark.svg">
-  <img src="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-light.svg" alt="Existing architecture illustration: clinic roles use local browser storage, with dashed paths showing synchronization and server coordination." width="500">
+  <img src="https://raw.githubusercontent.com/MahdiHajjHassan/doctoleb-showcase/main/assets/local-first-light.svg" alt="Clinic architecture: clinic roles use local browser storage, with dashed paths showing synchronization and server coordination." width="500">
 </picture>
 
-### Read further
+### Make synchronization state understandable
+
+A saved local change and a server-confirmed change are different states. I designed synchronization around pending changes, retries, duplicate submissions, concurrent edits, conflicts, and recovery.
+
+Staff access rules apply to data access as well as interface controls. Hiding a button alone does not establish authorization.
 
 - [Application architecture](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/architecture.md)
 - [Clinic workflows](https://github.com/MahdiHajjHassan/doctoleb-showcase/blob/main/docs/workflows.md)
 
 </details>
 
-[Mahdi Hajj Hassan](https://github.com/MahdiHajjHassan)
+[Back to my portfolio](https://github.com/MahdiHajjHassan)
