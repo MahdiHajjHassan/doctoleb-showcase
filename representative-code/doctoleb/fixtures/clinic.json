@@ -1,0 +1,26 @@
+{
+  "patients": [
+    {"id":"p-001","name":"Mira Haddad","dob":"1987-03-18","phone":"+961 00 000 101","sex":"female","administrative_note":"Prefers afternoon follow-ups"},
+    {"id":"p-002","name":"Elias Nasser","dob":"1972-09-04","phone":"+961 00 000 102","sex":"male","administrative_note":"New patient registration complete"},
+    {"id":"p-003","name":"Lina Farah","dob":"1994-06-22","phone":"+961 00 000 103","sex":"female","administrative_note":""},
+    {"id":"p-004","name":"Karim Saad","dob":"1980-11-12","phone":"+961 00 000 104","sex":"male","administrative_note":""},
+    {"id":"p-005","name":"Rima Salameh","dob":"1965-01-07","phone":"+961 00 000 105","sex":"female","administrative_note":"Call before next appointment"},
+    {"id":"p-006","name":"Jad Khoury","dob":"1998-04-30","phone":"+961 00 000 106","sex":"male","administrative_note":""},
+    {"id":"p-007","name":"Yara Abou Ali","dob":"1991-08-13","phone":"+961 00 000 107","sex":"female","administrative_note":""},
+    {"id":"p-008","name":"Omar Hamdan","dob":"1977-12-02","phone":"+961 00 000 108","sex":"male","administrative_note":""}
+  ],
+  "appointments": [
+    {"id":"a-001","patient_id":"p-001","doctor_id":"doctor-1","time":"09:00","duration":30,"reason":"Routine follow-up","status":"completed"},
+    {"id":"a-002","patient_id":"p-002","doctor_id":"doctor-2","time":"09:00","duration":30,"reason":"First consultation","status":"completed"},
+    {"id":"a-003","patient_id":"p-003","doctor_id":"doctor-1","time":"10:00","duration":30,"reason":"Follow-up consultation","status":"arrived"},
+    {"id":"a-004","patient_id":"p-004","doctor_id":"doctor-2","time":"10:00","duration":45,"reason":"Annual check-up","status":"in_progress"},
+    {"id":"a-005","patient_id":"p-005","doctor_id":"doctor-1","time":"11:00","duration":45,"reason":"Review appointment","status":"scheduled"},
+    {"id":"a-006","patient_id":"p-006","doctor_id":"doctor-2","time":"11:15","duration":30,"reason":"New patient visit","status":"scheduled"},
+    {"id":"a-007","patient_id":"p-007","doctor_id":"doctor-1","time":"13:00","duration":30,"reason":"Follow-up consultation","status":"scheduled"},
+    {"id":"a-008","patient_id":"p-008","doctor_id":"doctor-2","time":"14:00","duration":45,"reason":"Review appointment","status":"scheduled"}
+  ],
+  "encounters": [
+    {"id":"e-001","patient_id":"p-001","appointment_id":"a-001","summary":"Routine follow-up","assessment":"Progress reviewed with the patient.","plan":"Arrange a follow-up visit in four weeks.","author":"Dr. Noura Khalil","days_ago":0},
+    {"id":"e-002","patient_id":"p-003","appointment_id":null,"summary":"Initial consultation","assessment":"History reviewed and discussion recorded.","plan":"Return for scheduled review.","author":"Dr. Noura Khalil","days_ago":28}
+  ]
+}
