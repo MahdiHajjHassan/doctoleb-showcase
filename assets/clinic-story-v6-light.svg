@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="950" viewBox="0 0 680 950" role="img" aria-labelledby="clinicTitle clinicDesc" data-model="staff-execution-path-whatsapp-record-actions-and-clinic-report-validation" data-variant="desktop" data-version="v6">
+<title id="clinicTitle">Doctoleb: AI clinic management and WhatsApp assistance</title>
+<desc id="clinicDesc">A staff request passes through the AI agent&#x27;s plan, navigation and action steps into a clinic workspace with appointments, patient profiles, reports and payment analysis. A separate WhatsApp conversation connects only to appointments and patient profiles. Generated reports follow a distinct route to each clinic&#x27;s review and validation.</desc>
+<style>text{font-family:Segoe UI,Arial,sans-serif}path,rect,circle,ellipse{shape-rendering:geometricPrecision}</style>
+<rect x="0" y="0" width="680" height="950" rx="18" fill="#f4f7fb" stroke="none" stroke-width="1.5"/>
+<text x="24" y="51" font-size="29" font-weight="600" fill="#18293f" text-anchor="start">Doctoleb: AI clinic management</text>
+<text x="24" y="83" font-size="20" font-weight="400" fill="#52637a" text-anchor="start">From a request to the clinic’s daily work.</text>
+<rect x="24" y="105" width="632" height="112" rx="14" fill="#e6edfa" stroke="none" stroke-width="1.5"/>
+<path d="M106 217V232L127 217" fill="#e6edfa" stroke="#e6edfa" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="137" font-size="19" font-weight="600" fill="#2459a9" text-anchor="start">Tell the staff AI agent</text>
+<text x="46" y="169" font-size="24" font-weight="400" fill="#18293f" text-anchor="start">“Book a visit and prepare</text>
+<text x="46" y="203" font-size="24" font-weight="400" fill="#18293f" text-anchor="start">the clinic report.”</text>
+<path d="M106 233V242" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M101 236L106 242L111 236" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="106" cy="266" r="24" fill="#e6edfa" stroke="none" stroke-width="1.5"/>
+<circle cx="97" cy="258" r="1.5" fill="#2459a9" stroke="none" stroke-width="1.5"/>
+<path d="M103 258H117" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="97" cy="266" r="1.5" fill="#2459a9" stroke="none" stroke-width="1.5"/>
+<path d="M103 266H117" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="97" cy="274" r="1.5" fill="#2459a9" stroke="none" stroke-width="1.5"/>
+<path d="M103 274H117" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="106" y="314" font-size="24" font-weight="600" fill="#18293f" text-anchor="middle">Plan</text>
+<text x="106" y="340" font-size="18" font-weight="400" fill="#52637a" text-anchor="middle">Turn a goal into steps</text>
+<circle cx="340" cy="266" r="24" fill="#e6edfa" stroke="none" stroke-width="1.5"/>
+<path d="M331 254L352 267L342 269L337 279Z" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="340" y="314" font-size="24" font-weight="600" fill="#18293f" text-anchor="middle">Navigate</text>
+<text x="340" y="340" font-size="18" font-weight="400" fill="#52637a" text-anchor="middle">Open the right workflow</text>
+<circle cx="574" cy="266" r="24" fill="#e6edfa" stroke="none" stroke-width="1.5"/>
+<path d="M564 266L571 273L585 257" fill="none" stroke="#2459a9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="574" y="314" font-size="24" font-weight="600" fill="#18293f" text-anchor="middle">Act</text>
+<text x="574" y="340" font-size="18" font-weight="400" fill="#52637a" text-anchor="middle">Carry out the task</text>
+<path d="M132 266H314" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M308 261L314 266L308 271" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M366 266H548" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M542 261L548 266L542 271" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M574 350V365H218V386" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M213 380L218 386L223 380" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="386" width="390" height="368" rx="14" fill="#ffffff" stroke="#ced9e8" stroke-width="1.5"/>
+<text x="44" y="424" font-size="25" font-weight="600" fill="#18293f" text-anchor="start">Clinic workspace</text>
+<path d="M44 441H394" fill="none" stroke="#ced9e8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="46" y="471" width="28" height="27" rx="4" fill="#e6edfa" stroke="#2459a9" stroke-width="1.5"/>
+<path d="M46 480H74 M53 467V474 M67 467V474" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M53 489L58 493L68 484" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="474" font-size="22" font-weight="600" fill="#18293f" text-anchor="start">Appointments</text>
+<text x="92" y="501" font-size="18" font-weight="400" fill="#52637a" text-anchor="start">Book a visit</text>
+<path d="M92 518H394" fill="none" stroke="#ced9e8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="46" y="545" width="28" height="28" rx="4" fill="#e6edfa" stroke="#2459a9" stroke-width="1.5"/>
+<circle cx="60" cy="554" r="4" fill="#e6edfa" stroke="#2459a9" stroke-width="1.5"/>
+<path d="M52 568Q52 561 60 561Q68 561 68 568" fill="none" stroke="#2459a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="549" font-size="22" font-weight="600" fill="#18293f" text-anchor="start">Patient profiles</text>
+<text x="92" y="576" font-size="18" font-weight="400" fill="#52637a" text-anchor="start">Update the clinic record</text>
+<path d="M92 593H394" fill="none" stroke="#ced9e8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48 618H65L73 626V650H48Z" fill="#e6edfa" stroke="#2459a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65 618V626H73 M54 632H66 M54 638H66 M54 644H62" fill="none" stroke="#2459a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="624" font-size="22" font-weight="600" fill="#18293f" text-anchor="start">Reports</text>
+<text x="92" y="651" font-size="18" font-weight="400" fill="#52637a" text-anchor="start">Prepare the clinic report</text>
+<path d="M92 668H394" fill="none" stroke="#ced9e8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="46" y="695" width="28" height="28" rx="4" fill="#e6edfa" stroke="#2459a9" stroke-width="1.5"/>
+<path d="M52 703H68 M52 710H68 M52 717H68 M63 703V717" fill="none" stroke="#2459a9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="699" font-size="22" font-weight="600" fill="#18293f" text-anchor="start">Payments &amp; financials</text>
+<text x="92" y="726" font-size="18" font-weight="400" fill="#52637a" text-anchor="start">Analyze payments + balances</text>
+<path d="M456 541H436V484" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M436 484H414" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M420 479L414 484L420 489" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M436 559H414" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M420 554L414 559L420 564" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M436 541V559" fill="none" stroke="#24644d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="456" y="386" width="200" height="330" rx="24" fill="#ffffff" stroke="#ced9e8" stroke-width="2"/>
+<rect x="526" y="397" width="60" height="5" rx="3" fill="#24644d" stroke="none" stroke-width="1.5"/>
+<text x="475" y="435" font-size="23" font-weight="600" fill="#24644d" text-anchor="start">WhatsApp</text>
+<text x="475" y="462" font-size="19" font-weight="400" fill="#24644d" text-anchor="start">AI assistant</text>
+<rect x="472" y="482" width="168" height="92" rx="12" fill="#e8f3ed" stroke="none" stroke-width="1.5"/>
+<path d="M472 530L462 541H472" fill="#e8f3ed" stroke="#e8f3ed" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="487" y="508" font-size="18" font-weight="400" fill="#18293f" text-anchor="start">“Book a visit.</text>
+<text x="487" y="533" font-size="18" font-weight="400" fill="#18293f" text-anchor="start">Update my</text>
+<text x="487" y="558" font-size="18" font-weight="400" fill="#18293f" text-anchor="start">profile details.”</text>
+<rect x="486" y="594" width="154" height="81" rx="12" fill="#e8f3ed" stroke="none" stroke-width="1.5"/>
+<text x="500" y="622" font-size="18" font-weight="400" fill="#24644d" text-anchor="start">Booking +</text>
+<text x="500" y="648" font-size="18" font-weight="400" fill="#24644d" text-anchor="start">profile updates</text>
+<text x="469" y="753" font-size="18" font-weight="400" fill="#24644d" text-anchor="start">Writes to the</text>
+<text x="469" y="779" font-size="18" font-weight="400" fill="#24644d" text-anchor="start">clinic records</text>
+<path d="M414 634H426V803H340V832" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M335 826L340 832L345 826" fill="none" stroke="#2459a9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="832" width="632" height="98" rx="14" fill="#e6edfa" stroke="none" stroke-width="1.5"/>
+<circle cx="52" cy="868" r="16" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<path d="M42 868L49 875L63 859" fill="none" stroke="#2459a9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="82" y="875" font-size="25" font-weight="600" fill="#18293f" text-anchor="start">Clinic review &amp; validation</text>
+<text x="82" y="905" font-size="19" font-weight="400" fill="#52637a" text-anchor="start">Each clinic validates generated reports.</text>
+</svg>

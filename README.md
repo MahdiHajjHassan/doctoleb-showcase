@@ -1,35 +1,43 @@
-# Doctoleb | Clinic Management
+# Doctoleb | AI Clinic Management
 
 > [!CAUTION]
 > **Private clinic application.** Doctoleb is in development and its application source is private. This page explains the product and architecture through diagrams; it contains no patient records or deployment, clinical certification, or application test results.
 
-## Appointments, patient records, and administration in one clinic workflow
+## Run clinic workflows by talking to an AI agent
 
-Receptionists manage the schedule, doctors need patient and visit context, and administrators manage the clinic and staff. I developed Doctoleb to connect those activities in one application.
+I developed Doctoleb as AI clinic software for receptionists, doctors, and administrators. Staff describe what they want to accomplish in a conversation. The agent plans the task, navigates the application, and interacts with its workflows to book appointments, manage patient profiles, generate reports for each clinic to review and validate, and analyze payments and financials.
 
-**My contribution:** clinic workflow requirements, multilingual interfaces, staff access rules, and the design of local browser operation and synchronization.
+A WhatsApp AI assistant extends this workflow to patients: they can book appointments and update their profiles through conversation, with those changes returned to the clinic software.
+
+**My contribution:** clinic workflow requirements, conversational AI workflows for staff and WhatsApp, multilingual interfaces, staff access rules, and the design of local browser operation and synchronization.
 
 **Tools:** React · TypeScript · IndexedDB · Node.js
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v4-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="assets/clinic-story-v4-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v4-dark.svg">
-  <img src="assets/clinic-story-v4-light.svg" alt="An appointment calendar connects to a patient-record folder and visit timeline. Staff and clinic setup support the connected clinic day." width="680">
+  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/clinic-story-v6-mobile-dark.svg">
+  <source media="(max-width: 520px)" srcset="assets/clinic-story-v6-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clinic-story-v6-dark.svg">
+  <img src="assets/clinic-story-v6-light.svg" alt="A staff request passes through AI planning, navigation and actions into appointments, patient profiles, reports and payment analysis. A separate WhatsApp conversation updates booking and profiles. Generated reports go to clinic review and validation." width="680">
 </picture>
 
 ### Built around a clinic's working day
 
+- **Conversational control across the platform:** tell the staff agent what to do; it plans and carries out the workflow in the application.
+- **Clinic reports and financial analysis:** generate reports for clinic validation and analyze payments and financials.
+- **Patient conversations on WhatsApp:** book appointments and update patient profiles through the connected AI assistant.
 - **A connected schedule and record:** appointments, patient information, and visit administration belong to the same workflow.
 - **Languages used by the staff:** English, Arabic, and French, with right-to-left Arabic layouts.
 - **Interrupted connectivity:** local browser storage and synchronization distinguish a saved local change from one accepted by the server.
 - **Staff responsibilities:** receptionists, doctors, and administrators interact with the parts of the application their work requires.
 
 <details>
-<summary><strong>Engineering details: application structure, local storage, and synchronization</strong></summary>
+<summary><strong>Engineering details: AI workflows, application structure, and synchronization</strong></summary>
 
 | Component | Purpose |
 | --- | --- |
+| Staff AI agent | Plan, navigate and carry out clinic tasks from conversational instructions. |
+| WhatsApp AI assistant | Connect patient conversations to appointment booking and patient-profile updates. |
+| Reports and financial analysis | Produce reports for each clinic to review and validate; analyze payments and financials. |
 | React and TypeScript PWA | Appointments, records, and visit administration in the browser. |
 | IndexedDB | Store application data locally. |
 | Node-based server coordination | Synchronize changes and report their acceptance or conflicts. |
